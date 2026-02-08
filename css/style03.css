@@ -1,0 +1,6 @@
+body { text-align: center; }
+.firework { width: 10px; height: 10px; background: red; position: absolute; animation: explode 1s forwards; }
+@keyframes explode {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(5); opacity: 0; }
+}
