@@ -1,0 +1,28 @@
+.accordion {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.accordion-header {
+  padding: 10px;
+  background-color: #eee;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion-header:hover {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  max-height: 0; /* Ẩn mặc định */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+}
+
+.accordion-content.active {
+  padding: 10px;
+}

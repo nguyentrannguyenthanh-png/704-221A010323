@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tính BMI</title>
+  <link rel="stylesheet" href="CSS/style5.css">
+</head>
+<body>
+  <h2>Máy Tính Chỉ Số BMI</h2>
+  <form onsubmit="calculateBMI(); return false;">
+    <label for="weight">Cân nặng (kg):</label><br>
+    <input type="number" id="weight" step="0.1" required><br><br>
+
+    <label for="height">Chiều cao (m):</label><br>
+    <input type="number" id="height" step="0.01" required><br><br>
+
+    <button type="submit">Tính BMI</button>
+  </form>
+
+  <p id="result"></p>
+
+  <script src="JS/script5.js"></script>
+</body>
+</html>

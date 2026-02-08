@@ -1,0 +1,25 @@
+/* Style cho các nút tab */
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.tab-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tab-buttons button.active {
+  background-color: #4285f4;
+  color: white;
+}
+
+/* Style cho nội dung tab */
+.tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
